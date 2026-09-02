@@ -1,0 +1,190 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you?",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Hey",
+                "What's up?",
+                "Hey there",
+                "Howdy"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help you?",
+                "Hey! What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "I am leaving",
+                "Have a good day",
+                "See ya",
+                "Talk to you later",
+                "Catch you later"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later!",
+                "Goodbye!",
+                "Have a great day!"
+            ]
+        },
+        {
+            "tag": "programming",
+            "patterns": [
+                "What is programming?",
+                "What is coding?",
+                "Tell me about programming",
+                "Tell me about coding",
+                "What is software development?",
+                "What does a programmer do?",
+                "What is computer programming?",
+                "What is a programming language?"
+            ],
+            "responses": [
+                "Programming is the process of writing instructions that tell a computer how to perform tasks.",
+                "Coding is writing instructions for computers using programming languages.",
+                "Software development involves designing, creating, testing, and maintaining software."
+            ]
+        },
+        {
+            "tag": "resource",
+            "patterns": [
+                "Where can I learn to code?",
+                "Best programming resources",
+                "How can I learn programming?",
+                "Where can I learn programming?",
+                "I want to learn coding",
+                "What are good programming tutorials?",
+                "Can you recommend programming resources?"
+            ],
+            "responses": [
+                "There are many great resources for learning programming, including online tutorials, documentation, and coding practice websites.",
+                "You can start with free programming courses and tutorials online.",
+                "Official documentation is also a great way to learn a programming language."
+            ]
+        },
+        {
+            "tag": "python",
+            "patterns": [
+                "What is Python?",
+                "Tell me about Python",
+                "What can I do with Python?",
+                "Is Python easy to learn?",
+                "How do I learn Python?",
+                "Why should I learn Python?",
+                "What is Python used for?"
+            ],
+            "responses": [
+                "Python is a popular programming language known for being relatively easy to learn.",
+                "Python is commonly used for web development, automation, data science, artificial intelligence, and machine learning.",
+                "Python is a great language for beginners because its syntax is relatively simple."
+            ]
+        },
+        {
+            "tag": "machine_learning",
+            "patterns": [
+                "What is machine learning?",
+                "Tell me about machine learning",
+                "How does machine learning work?",
+                "What is ML?",
+                "What can machine learning do?",
+                "How do I learn machine learning?",
+                "What is artificial intelligence?"
+            ],
+            "responses": [
+                "Machine learning is a type of artificial intelligence where computers learn patterns from data.",
+                "Machine learning allows computers to make predictions or decisions based on examples and data.",
+                "Machine learning is commonly used for things like recommendations, image recognition, and natural language processing."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Thanks for your help",
+                "I appreciate it",
+                "That was helpful",
+                "Thank you so much",
+                "You're helpful"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "No problem!",
+                "Anytime!",
+                "Glad I could help!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name?",
+                "Who are you?",
+                "What should I call you?",
+                "Do you have a name?",
+                "Tell me your name"
+            ],
+            "responses": [
+                "I'm your AI chatbot!",
+                "You can call me ChatBot.",
+                "I'm a simple AI chatbot built with Python and PyTorch."
+            ]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": [
+                "How are you?",
+                "How are you doing?",
+                "Are you doing okay?",
+                "How is your day?",
+                "How are things?"
+            ],
+            "responses": [
+                "I'm doing great!",
+                "I'm doing well, thanks for asking!",
+                "I'm ready to help!",
+                "I'm doing great. How can I help you?"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me?",
+                "I need help",
+                "Help me",
+                "What can you do?",
+                "How can you help me?",
+                "What are you capable of?"
+            ],
+            "responses": [
+                "I can answer questions about programming and computer science.",
+                "I'm here to help! Try asking me about programming, Python, or machine learning.",
+                "Ask me a question and I'll do my best to help!"
+            ]
+        },
+        {
+            "tag": "stocks",
+            "patterns": [
+                "stocks",
+                "show me stocks",
+                "give me stocks",
+                "what stocks are available"
+            ],
+            "responses": [
+                "Here are some stocks:"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+Will need torch, numpy, and nltk
+
+We will have a vocabulary of all possible words that I know
+    - Example list: What, I, Programming, Run
+    -                  0   1    2           3
+
+A sentence is a list as well. When looking at a sentence each word has a 1 or 0.
+    - 1 means we know the word
+    - 0 is an unknown word
